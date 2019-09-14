@@ -4,10 +4,10 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="dev-sunky-logger",
-    version="0.0.1",
+    name="devsunkylogger",
+    version="0.0.2",
     author="Ilesanmi Omoniyi",
-    author_email="omoniyii24@gmail.com",
+    author_email="omoniyi24@gmail.com",
     description="A log package",
     long_description=long_description,
     long_description_content_type="text/markdown",
