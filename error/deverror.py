@@ -1,7 +1,8 @@
 import logging
 
 
-class error:
+class DevError:
 
-    def error(msg):
+    def dev_error(self, msg):
         return logging.error(msg)
+

@@ -1,1 +1,1 @@
-name = "error_pkg"
+name = "deverror"

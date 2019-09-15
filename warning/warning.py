@@ -1,7 +1,7 @@
 import logging
 
 
-class warning:
+class DevWarning:
 
-    def warn(msg):
+    def dev_warn(self, msg):
         return logging.warning(msg)

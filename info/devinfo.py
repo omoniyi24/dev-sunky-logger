@@ -1,8 +1,8 @@
 import logging
 
 
-class info:
+class DevInfo:
 
-    def info(msg):
+    def dev_info(self, msg):
         logging.basicConfig(format='%(asctime)s - %(message)s', level=logging.INFO)
         return logging.info(msg)

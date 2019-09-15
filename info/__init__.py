@@ -1,1 +1,1 @@
-name = "info_pkg"
+name = "devinfo"
