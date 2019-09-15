@@ -6,7 +6,7 @@ with open('README.md') as readme_file:
 setup_args = dict(
     name='sunkylogger',
     version='0.0.1',
-    description='Useful tools to work with Elastic stack in Python',
+    description='Logging python SDK',
     long_description_content_type="text/markdown",
     long_description=README,
     license='MIT',
@@ -17,9 +17,5 @@ setup_args = dict(
     url='https://github.com/omoniyi24/dev-sunky-logger'
 )
 
-install_requires = [
-    'elasticsearch>=7.0.2'
-]
-
 if __name__ == '__main__':
-    setup(**setup_args, install_requires=install_requires)
+    setup(**setup_args)
